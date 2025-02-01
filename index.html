@@ -79,32 +79,15 @@
             text-decoration: underline;
         }
 
-        /* Hovering window styles */
-        #hoverWindow {
-            display: none;
-            position: absolute;
+        /* For the dynamic content area */
+        #content {
+            padding: 40px;
+            margin: 20px;
             background-color: #fff;
-            border: 1px solid #ccc;
-            padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            z-index: 1000;
-            width: 300px;
-            max-width: 80%;
             border-radius: 8px;
-            top: 40px; /* Adjust the position as needed */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-
-        #hoverWindow h2 {
-            font-size: 1.5em;
-            margin-bottom: 10px;
-        }
-
-        /* For styling the content inside the hover window */
-        #md-content {
-            max-height: 300px;
-            overflow-y: auto;
-        }
-
+        
     </style>
 </head>
 <body>
@@ -115,22 +98,18 @@
 </header>
 
 <nav>
-    <a href="#about">About Me</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-    <a href="notes.html">Wedding Things</a> <!-- Link to trigger the hovering window -->
+    <a href="#" class="loadPage" data-page="about.html">About Me</a>
+    <a href="#" class="loadPage" data-page="skills.html">Skills</a>
+    <a href="#" class="loadPage" data-page="projects.html">Projects</a>
+    <a href="#" class="loadPage" data-page="contact.html">Contact</a>
+    <a href="#" class="loadPage" data-page="notes.html">Wedding Things</a>
 </nav>
 
-<!-- Hovering window structure -->
-<div id="hoverWindow">
-    <h2>Markdown Notes</h2>
-    <div id="md-content"></div> <!-- Content will be rendered here -->
-</div>
-
 <section id="about">
+  <center>
     <h2>About Me</h2>
     <p>Hello! I'm Josh Boehm, a passionate Data Scientist. I specialize in programming and things. This is my personal website where you can learn more about my work, skills, and get in touch with me.</p>
+  </center>
 </section>
 
 <!-- Your other sections (skills, projects, etc.) -->
@@ -139,6 +118,32 @@
     <p>&copy; 2025 Josh Boehm. All rights reserved.</p>
     <p><a href="https://www.linkedin.com/in/joshua-f-boehm" target="_blank">LinkedIn</a> | <a href="https://github.com/joshb88" target="_blank">GitHub</a></p>
 </footer>
+
+<script>
+    // JavaScript to dynamically load content
+    const loadPageLinks = document.querySelectorAll('.loadPage');
+    const contentDiv = document.getElementById('content');
+
+    // Loop through all the loadPage links and add event listeners
+    loadPageLinks.forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();  // Prevent default link behavior
+            
+            const page = link.getAttribute('data-page');  // Get the page from the data-page attribute
+            
+            fetch(page)  // Fetch the content from the specified page
+                .then(response => response.text())
+                .then(data => {
+                    contentDiv.innerHTML = data;  // Inject the fetched content into the content div
+                })
+                .catch(error => {
+                    console.error('Error loading the content:', error);
+                    contentDiv.innerHTML = '<p>There was an error loading the content.</p>';
+                });
+        });
+    });
+</script>
+
 
 </body>
 </html>
