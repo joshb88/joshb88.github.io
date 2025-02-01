@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100px; /* Ensures it doesn't change */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Centers the nav items horizontally */
+    align-items: center; /* Ensures vertical alignment */
+    background-color: #444;
+    width: 100%;
+    position: fixed;
+    top: 100px; /* Adjusted to appear below the header */
+    left: 0;
+    z-index: 999;
+    height: 50px; /* Fixed height */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px; /* Adds spacing between items */
+    white-space: nowrap; /* Prevents wrapping */
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Wrapper to hold content, centered and below header/nav */
+.wrapper {
+    margin-top: 150px; /* Ensure it's below the fixed header & nav */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: calc(100vh - 150px); /* Ensures it fills remaining space */
+    overflow-y: auto; /* Allows scrolling if content is long */
+}
+
+/* Dynamic content area */
+#content {
+    display: block;
+    flex-grow: 1;
+    padding: 40px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;  
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
