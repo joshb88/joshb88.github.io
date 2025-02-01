@@ -1,38 +1,172 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Homework 1</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website of Josh Boehm">
+    <title>Josh Boehm - Personal Website</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            padding: 40px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hovering window styles */
+        #hoverWindow {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            width: 300px;
+            max-width: 80%;
+            border-radius: 8px;
+            top: 40px; /* Adjust the position as needed */
+        }
+
+        #hoverWindow h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        /* For styling the content inside the hover window */
+        #md-content {
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+    </style>
 </head>
 <body>
-    <header style="text-align: center;">
-        <h1>Stats 604</h1>
-        <h5>Josh Boehm
-        <br>Homework 1
-        <br>January 19, 2025
-        </h5>
-    </header>
-    <main>
-        <table style="text-align: center;">
-            <tr>
-                <td><a href="tamu.edu">Texas A&M Statistics department!</a></td>
-                <td><img src="profile2-2.png"></td>
-            </tr>
-            <tr>
-                <td>
-                    <ul>
-                        <li>I graduated with a B. Sc. in Data Sciencefrom Univertiy of Houston - Downtown</li>
-                        <li>I am currently a graduate student at Texas A&M University</li>
-                    </ul>
-                </td>
-                <td></td>
-            </tr>
-        </table>
-    </main>
-    <footer style="text-align: center; font-size: 10px;">
-        <p>Josh Boehm
-        &nbsp;Stat 604
-        &nbsp;Homework 1</p>
-    </footer>
+
+<header>
+    <h1>Josh Boehm</h1>
+    <p>Welcome to my personal website</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <a href="#" id="openHoverWindow">Wedding Things</a> <!-- Link to trigger the hovering window -->
+</nav>
+
+<!-- Hovering window structure -->
+<div id="hoverWindow">
+    <h2>Markdown Notes</h2>
+    <div id="md-content"></div> <!-- Content will be rendered here -->
+</div>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Josh Boehm, a passionate Data Scientist. I specialize in programming and things. This is my personal website where you can learn more about my work, skills, and get in touch with me.</p>
+</section>
+
+<!-- Your other sections (skills, projects, etc.) -->
+
+<footer>
+    <p>&copy; 2025 Josh Boehm. All rights reserved.</p>
+    <p><a href="https://www.linkedin.com/in/joshua-f-boehm" target="_blank">LinkedIn</a> | <a href="https://github.com/joshb88" target="_blank">GitHub</a></p>
+</footer>
+
+<script>
+    // Hover window handling
+    const hoverWindow = document.getElementById('hoverWindow');
+    const openHoverWindowBtn = document.getElementById('openHoverWindow');
+
+    // Show the hovering window when the "Wedding Things" link is clicked
+    openHoverWindowBtn.onclick = function(event) {
+        // Prevent the default anchor link behavior
+        event.preventDefault();
+
+        fetch('notes.md')  // Adjust path to your Markdown file
+            .then(response => response.text())
+            .then(data => {
+                // Convert markdown to HTML and display it in the hovering window
+                document.getElementById('md-content').innerHTML = marked(data);
+                hoverWindow.style.display = "block";  // Show the hovering window
+                const rect = openHoverWindowBtn.getBoundingClientRect();
+                hoverWindow.style.left = `${rect.left}px`;  // Position window below the link
+                hoverWindow.style.top = `${rect.bottom + 10}px`;  // Adjust the vertical position
+            })
+            .catch(error => {
+                console.error('Error fetching the Markdown file:', error);
+                document.getElementById('md-content').innerHTML = '<p>There was an error loading the content.</p>';
+            });
+    }
+
+</script>
+
+</body>
 </html>
