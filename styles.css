@@ -59,6 +59,7 @@ header h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center; /* Center the content vertically */
     width: 100%;
     min-height: calc(100vh - 150px); /* Ensures it fills remaining space */
     overflow-y: auto; /* Allows scrolling if content is long */
@@ -75,6 +76,8 @@ header h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 1200px;
+    margin-left: auto; /* Centers the content horizontally */
+    margin-right: auto; /* Centers the content horizontally */
 }
 
 /* Footer */
@@ -134,6 +137,10 @@ footer a:hover {
     #content {
         padding: 20px; /* Reduce content padding */
         margin: 10px; /* Reduce margins */
+        margin-left: auto;  /* Add left margin for spacing */
+        margin-right: auto; /* Add right margin for spacing */
+        width: 100%;
+        max-width: 90%; /* Ensure it's not too wide on small screens */
     }
 }
 
@@ -151,5 +158,9 @@ footer a:hover {
     #content {
         padding: 15px; /* Further reduce padding */
         margin: 5px; /* Further reduce margins */
+        margin-left: auto; /* Center the content */
+        margin-right: auto; /* Center the content */
+        width: 100%;
+        max-width: 95%; /* Ensure it fits well on small screens */
     }
 }
