@@ -28,6 +28,14 @@
             margin: 0;
             font-size: 2.5em;
         }
+        
+         /* Wrapper to ensure nav stays centered */
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
 
         nav {
             display: flex;
@@ -83,16 +91,19 @@
     <p>Welcome to my personal website</p>
 </header>
 
-<nav>
-    <a href="#" class="loadPage" data-page="about.html">About Me</a>
-    <a href="#" class="loadPage" data-page="skills.html">Skills</a>
-    <a href="#" class="loadPage" data-page="projects.html">Projects</a>
-    <a href="#" class="loadPage" data-page="contact.html">Contact</a>
-    <a href="#" class="loadPage" data-page="notes.html">Wedding Things</a>
-</nav>
+<!-- Wrapper for keeping nav centered and unaffected by dynamic content -->
+<div class="wrapper">
+    <nav>
+        <a href="#" class="loadPage" data-page="about.html">About Me</a>
+        <a href="#" class="loadPage" data-page="skills.html">Skills</a>
+        <a href="#" class="loadPage" data-page="projects.html">Projects</a>
+        <a href="#" class="loadPage" data-page="contact.html">Contact</a>
+        <a href="#" class="loadPage" data-page="notes.html">Wedding Things</a>
+    </nav>
 
-<!-- Dynamic content will be loaded here -->
-<div id="content"></div>
+    <!-- Dynamic content will be loaded here -->
+    <div id="content"></div>
+</div>
 
 <footer>
     <p>&copy; 2025 Josh Boehm. All rights reserved.</p>
