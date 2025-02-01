@@ -77,6 +77,7 @@ header h1 {
     max-width: 1200px;
 }
 
+/* Footer */
 footer {
     background-color: #333;
     color: #fff;
@@ -94,4 +95,61 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* Responsive styles */
+
+/* For tablets and smaller devices */
+@media (max-width: 1024px) {
+    header h1 {
+        font-size: 2em; /* Make header text smaller */
+    }
+
+    nav a {
+        padding: 8px 15px; /* Adjust padding for smaller screens */
+    }
+
+    #content {
+        padding: 30px; /* Reduce content padding */
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em; /* Make header text smaller */
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        height: auto; /* Let the nav grow in height */
+    }
+
+    nav a {
+        padding: 8px 15px;
+        font-size: 14px; /* Smaller font size for smaller screens */
+    }
+
+    #content {
+        padding: 20px; /* Reduce content padding */
+        margin: 10px; /* Reduce margins */
+    }
+}
+
+/* For very small screens like phones in portrait mode */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.2em; /* Even smaller header text */
+    }
+
+    nav a {
+        padding: 5px 10px;
+        font-size: 12px; /* Smaller font size */
+    }
+
+    #content {
+        padding: 15px; /* Further reduce padding */
+        margin: 5px; /* Further reduce margins */
+    }
 }
