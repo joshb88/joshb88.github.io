@@ -1,10 +1,18 @@
 <!-- pandoc notes.md -o notes.html -->
 
+<details>
+    <summary>
+        Click here to read the script; you will need a passcode
+    </summary>
+    <a href="#" class="loadPage" data-page="script.html">The working script</a>
+</details>
+
+
 # Outline
 
 30 &le; Goal Timing &le; 40
 
-## Opening Remarks
+## Opening Remarks 
 
 ### Introduce myself. 
 
@@ -92,4 +100,3 @@ This may be a good time for the wife to get back her flowers from the Maid-of-Ho
 ### After everyone is standing, announce them as the married couple:
 
 > I now give you, for the very first time, Mr. and Mrs. Kristopher and Alexia Stolte!
-

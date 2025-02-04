@@ -21,8 +21,8 @@
         <a href="#" id="homeLink">About Me</a>
         <a href="#" class="loadPage" data-page="skills.html">Skills</a>
         <a href="#" class="loadPage" data-page="projects.html">Projects</a>
-        <a href="#" class="loadPage" data-page="contact.html">Contact</a>
-        <a href="#" class="loadPage" data-page="notes.html">Wedding Things</a>
+        <a href="#" class="loadPage" data-page="script.html">Wedding Script (NYI)</a>
+        <a href="#" class="loadPage" data-page="notes.html">Wedding Notes</a>
     </nav>
 
     <!-- Dynamic content -->
@@ -35,7 +35,7 @@
 </footer>
 
 <script>
-    // JavaScript to dynamically load content
+    // JavaScript to dynamically load content with password protection for script.html only
     const loadPageLinks = document.querySelectorAll('.loadPage');
     const contentDiv = document.getElementById('content');
 
@@ -45,15 +45,37 @@
             
             const page = link.getAttribute('data-page');
             
-            fetch(page)
-                .then(response => response.text())
-                .then(data => {
-                    contentDiv.innerHTML = data;
-                })
-                .catch(error => {
-                    console.error('Error loading the content:', error);
-                    contentDiv.innerHTML = '<p>There was an error loading the content.</p>';
-                });
+            // Apply password protection only for script.html
+            if (page === "script.html") {
+                const enteredPassword = prompt("Enter the passcode to continue:");
+                const correctPassword = "stolte2025";
+                
+                if (enteredPassword === correctPassword) {
+                    // If password is correct, load the script.html content
+                    fetch(page)
+                        .then(response => response.text())
+                        .then(data => {
+                            contentDiv.innerHTML = data;
+                        })
+                        .catch(error => {
+                            console.error('Error loading the content:', error);
+                            contentDiv.innerHTML = '<p>There was an error loading the content.</p>';
+                        });
+                } else {
+                    alert("Incorrect passcode!");
+                }
+            } else {
+                // For other links, just load the content as usual (no password prompt)
+                fetch(page)
+                    .then(response => response.text())
+                    .then(data => {
+                        contentDiv.innerHTML = data;
+                    })
+                    .catch(error => {
+                        console.error('Error loading the content:', error);
+                        contentDiv.innerHTML = '<p>There was an error loading the content.</p>';
+                    });
+            }
         });
     });
 
