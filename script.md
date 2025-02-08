@@ -1,17 +1,3 @@
-<!-- pandoc script.md -o script.html -->
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    const correctPassword = "stolte2025"; // Change this
-    const enteredPassword = prompt("Enter the passcode to access this page:");
-
-    if (enteredPassword !== correctPassword) {
-        alert("Incorrect passcode! Redirecting...");
-        window.location.href = "homeLink"; // Redirects away (or change this URL)
-    }
-});
-</script>
-
-
 ## Opening Remarks 
 > Hello, everyone. For those of you who may not know me well, my name is Josh Boehm; I've been a a friend to both Kris and Alexia for nearly a decade. 
 > For that reason, they have honored me to stand before you all today to share in their most joyous day. 
@@ -44,7 +30,13 @@ He will respond his name and then find his seat. At this point, tell everyone to
 
 ## Wedding Officiant Speech
 
-I bet there are still some of you who may be thinking, "who is this tall, goofy looking guy and why is he standing there?"
-I first met Alexia over 10 years ago. She was as beautiful and fiery then as she is now. 
-Very quickly, we began to see each other like siblings would; pure truth, and sometimes hard truths, delivered with love.
-<span style="background-color:rgba(255, 94, 0, 0.15);">At that time, she had been dating someone for some time and she was lamenting over this relationship like we all did in our youth.</span>
+I bet there are still some of you who may be thinking, "who is this tall, goofy looking guy and why is he standing there?" As I mentioned before my name is Josh Boehm, and I've known Kristopher and Alexia since their beginning. For that reason, I have been honored to stand before you all today to facilitate the most beautiful day of their lives (so far).
+
+Like so many stories, theirs isn't without intrigue or conflict, nor is with without passion, fun, and most importantly, love. They have very clearly trended towards something beautiful.
+
+ First, I met Alexia over 10 years ago, and it didn't take long for us to grow as friends. She was as beautiful as she was fiery, and as fierce as she was compassionate; let me tell you: nothing has changed in that time. 
+
+She's devoted to things she sees in her future, and more than capable of achieving them. She was the youngest proper manager at Japaneiro's I think there's ever been, and she succeeded at that roll as we all know her spirit demands. Sure, she may occasionally be on what my Cuban family call "island time", but with the grace she exhibits managing her life (and often lives around her), it's a testament to her character she manages to do anything. Because of her wonderful personality, I begain to see her as a brother would a sister: sharing pure, sometimes hard, truths delivered with love. 
+
+A short time after Alexia and I began our friendship in earnest is when I met Kris. While he shared many of the amazing qualities any person seeks, his truly shining characteristics were much more complimentary to hers. He was clever, charming, and loved life more than anyone else I've met since; these too have only matured in the subsequent years. With his brightness, his capability,  and his competency, he too ascended the heirarchy of our job. He and I grew closer as friends as we both saw eye-to-eye on how to live life: with purpose and above all, with enjoyment.
+<span style="background-color:rgba(255, 94, 0, 0.15);">at that time, she had been dating someone for some time and she was lamenting over this relationship like we all did in our youth.</span>
