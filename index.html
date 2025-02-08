@@ -7,6 +7,13 @@
     <title>Josh Boehm - Personal Website</title>
     <script src="https://cdn.jsdelivr.net/npm/marked@4.0.12/lib/marked.min.js"></script>
     <link rel="stylesheet" href="styles.css">
+    <script src="spoiler.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            spoilerAlert('spoiler');
+            spoilerAlert('.spoiler', {max: 20, partial: 6});
+        });
+    </script>
 </head>
 <body>
 
@@ -83,8 +90,9 @@
         event.preventDefault();
         contentDiv.innerHTML = '';  // Clears dynamic content and returns to the default homepage
     });
-</script>
 
+
+</script>
 
 
 </body>

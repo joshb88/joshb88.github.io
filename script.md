@@ -1,3 +1,5 @@
+<!-- pandoc script.md -o script.html -->
+
 ## Opening Remarks 
 > Hello, everyone. For those of you who may not know me well, my name is Josh Boehm; I've been a a friend to both Kris and Alexia for nearly a decade. 
 > For that reason, they have honored me to stand before you all today to share in their most joyous day. 
@@ -30,13 +32,23 @@ He will respond his name and then find his seat. At this point, tell everyone to
 
 ## Wedding Officiant Speech
 
-I bet there are still some of you who may be thinking, "who is this tall, goofy looking guy and why is he standing there?" As I mentioned before my name is Josh Boehm, and I've known Kristopher and Alexia since their beginning. For that reason, I have been honored to stand before you all today to facilitate the most beautiful day of their lives (so far).
+<spoiler>
+I bet there are still some of you sitting there who may be thinking, "who is this tall, goofy looking guy and why is he officiating?" Well, as I mentioned before my name is Josh Boehm, and I've known Kristopher and Alexia since their beginning. For that reason, I have been honored to stand before you all today to facilitate the most beautiful day of their lives (so far).</spoiler>
 
-Like so many stories, theirs isn't without intrigue or conflict, nor is with without passion, fun, and most importantly, love. They have very clearly trended towards something beautiful.
+<spoiler>Like so many stories, theirs isn't without intrigue, conflict or hardship, nor is with without passion, fun, and most importantly, love. They have very clearly trended towards something beautiful, which is why we gather here today.</spoiler>
 
- First, I met Alexia over 10 years ago, and it didn't take long for us to grow as friends. She was as beautiful as she was fiery, and as fierce as she was compassionate; let me tell you: nothing has changed in that time. 
+<spoiler>First, I met Alexia over 10 years ago, and it didn't take long for us to grow as friends. She was as beautiful as she was fiery, and as fierce as she was compassionate; let me tell you: nothing has changed in that time.</spoiler>
 
-She's devoted to things she sees in her future, and more than capable of achieving them. She was the youngest proper manager at Japaneiro's I think there's ever been, and she succeeded at that roll as we all know her spirit demands. Sure, she may occasionally be on what my Cuban family call "island time", but with the grace she exhibits managing her life (and often lives around her), it's a testament to her character she manages to do anything. Because of her wonderful personality, I begain to see her as a brother would a sister: sharing pure, sometimes hard, truths delivered with love. 
+<spoiler>She's devoted to the things she sees in her future, and she's more than capable of achieving them. She was the youngest manager at Japaneiro's I think there's ever been, and she's grown from that role as we all know her spirit demands. Sure, she may occasionally be on what my Cuban family call "island time", but with the grace she exhibits managing her life (and often the lives around her), it's a testament to her character she manages to do anything. Because of her wonderful personality, I begain to see her as a brother would a sister: sharing pure, sometimes hard, truths always delivered with love.</spoiler>
 
-A short time after Alexia and I began our friendship in earnest is when I met Kris. While he shared many of the amazing qualities any person seeks, his truly shining characteristics were much more complimentary to hers. He was clever, charming, and loved life more than anyone else I've met since; these too have only matured in the subsequent years. With his brightness, his capability,  and his competency, he too ascended the heirarchy of our job. He and I grew closer as friends as we both saw eye-to-eye on how to live life: with purpose and above all, with enjoyment.
-<span style="background-color:rgba(255, 94, 0, 0.15);">at that time, she had been dating someone for some time and she was lamenting over this relationship like we all did in our youth.</span>
+<spoiler>A short time after Alexia and I began our friendship in earnest is when I met Kris. While he shared many of the amazing qualities any person seeks, his truly shining characteristics were much more uniquely Kris. He was clever, charming, and loved life more than anyone else I've met since; these too have only matured in the subsequent years. There wasn't a day that went by where he wasn't cracking a joke, singing a song, or sharing a laugh. It was no wonder he progressed to where he is now. He and I grew closer as friends as we both saw eye-to-eye on how to live life: with purpose and, above all, passionate enjoyment.</spoiler>
+
+<spoiler>Naturally, these two brilliant and, if I may say say, very attractive people begin sparking. How couldn't they? They have the most well-fitting complimentary strengths I've seen. Anyway, around that time, Alexia was in a transitional period of a relationship when she had finally confided in me, "Josh, he's soooo hot! What do I do?" As you can imagine, I encouraged her with the truth: "Yeah, I picked up on that.. If you like him, go talk to him!" What felt like immediately, some fateful night at Blu (I'm not sure which night it was; those of you who've been could imagine why) those sparks finally ignited into fierce flames. From that fateful moment until this one, those flames have flickered through the calm days and the stormy nights and everything in between until they steadied to a smolder that warms their souls.</spoiler>
+
+<spoiler>
+But as with a flame, your love will take care, work, and dedication. It's critical you both allow not just the other the room to grow, to breath, to flourish, but <i>yourselves</i>. There will be days that you each may need stoking; there will be days you both need more fuel. Just remember that from this day forward, you are both each other's keeper. May you tend to each other in such a way that you keep that warmth for all your lives.
+</spoiler>
+
+## Declaration of Intent
+
+And with that, 
