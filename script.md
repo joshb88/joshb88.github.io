@@ -52,3 +52,27 @@ But as with a flame, your love will take care, work, and dedication. It's critic
 ## Declaration of Intent
 
 And with that, 
+
+I would like for it to be something like:
+
+
+BRIDE and GROOM, by coming here today, you have reached a crossroads in your lives.
+
+You’re turning away from your yesterdays and looking ahead to your tomorrows.
+
+Your past is a distant memory.
+
+Your future a waiting adventure.
+
+It is a new dawn, a new commitment, a new life.
+
+The bonds you are forging today will change your lives forever.
+
+
+
+
+Do you GROOM take BRIDE, to be your lawfully wedded wife, to share your life openly, standing with her in sickness and in health, in joy and in sorrow, in hardship and in ease, to cherish and love forever more?
+GROOM says, I do.”
+
+Do you BRIDE take GROOM, to be your lawfully wedded husband, to share your life openly, standing with him in sickness and in health, in joy and in sorrow, in hardship and in ease, to cherish and love forever more?
+BRIDE says, I do.”
