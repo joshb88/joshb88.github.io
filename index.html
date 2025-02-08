@@ -28,7 +28,7 @@
         <a href="#" id="homeLink">About Me</a>
         <a href="#" class="loadPage" data-page="skills.html">Skills</a>
         <a href="#" class="loadPage" data-page="projects.html">Projects</a>
-        <a href="#" class="loadPage" data-page="script.html">Wedding Script (NYI)</a>
+        <a href="#" class="loadPage" data-page="script.html">Wedding Script</a>
         <a href="#" class="loadPage" data-page="notes.html">Wedding Notes</a>
     </nav>
 
@@ -63,11 +63,17 @@
                         .then(response => response.text())
                         .then(data => {
                             contentDiv.innerHTML = data;
+
+                            // Ensure scripts run after the content is loaded
+                            setTimeout(() => {
+                                applyPageScripts();
+                            }, 100);
                         })
                         .catch(error => {
                             console.error('Error loading the content:', error);
                             contentDiv.innerHTML = '<p>There was an error loading the content.</p>';
                         });
+
                 } else {
                     alert("Incorrect passcode!");
                 }
@@ -77,11 +83,17 @@
                     .then(response => response.text())
                     .then(data => {
                         contentDiv.innerHTML = data;
+
+                        // Ensure scripts run after the content is loaded
+                        setTimeout(() => {
+                            applyPageScripts();
+                        }, 100);
                     })
                     .catch(error => {
                         console.error('Error loading the content:', error);
                         contentDiv.innerHTML = '<p>There was an error loading the content.</p>';
                     });
+
             }
         });
     });
@@ -91,6 +103,15 @@
         contentDiv.innerHTML = '';  // Clears dynamic content and returns to the default homepage
     });
 
+    function applyPageScripts() {
+        console.log("Applying scripts for dynamically loaded content...");
+
+        // Re-initialize spoilerAlert for any dynamically loaded page
+        spoilerAlert('spoiler');
+        spoilerAlert('.spoiler', { max: 20, partial: 6 });
+
+        // Add more script initializations here if needed
+    }
 
 </script>
 
