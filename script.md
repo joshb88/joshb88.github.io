@@ -49,30 +49,24 @@ I bet there are still some of you sitting there who may be thinking, "who is thi
 But as with a flame, your love will take care, work, and dedication. It's critical you both allow not just the other the room to grow, to breath, to flourish, but <i>yourselves</i>. There will be days that you each may need stoking; there will be days you both need more fuel. Just remember that from this day forward, you are both each other's keeper. May you tend to each other in such a way that you keep that warmth for all your lives.
 </spoiler>
 
+## Unity Candle
+
+Find out what this is, but it's probably best here to end the metaphor and transition into the declaration
+
 ## Declaration of Intent
 
 And with that, 
 
-I would like for it to be something like:
 
-
-BRIDE and GROOM, by coming here today, you have reached a crossroads in your lives.
-
+<span style="background-color:rgba(255, 255, 0, 0.15);">ALEXIA</span> and <span style="background-color:rgba(255, 255, 0, 0.15);">KRISTOPHER</span>, by coming here today, you have reached a crossroads in your lives.
 You’re turning away from your yesterdays and looking ahead to your tomorrows.
-
 Your past is a distant memory.
-
 Your future a waiting adventure.
-
-It is a new dawn, a new commitment, a new life.
-
+It is a new dawn, a new commitment, a new life.\
 The bonds you are forging today will change your lives forever.
 
+Do you <span style="background-color:rgba(255, 255, 0, 0.15);">KRISTOPHER</span> take <span style="background-color:rgba(255, 255, 0, 0.15);">ALEXIA</span>, to be your lawfully wedded wife, to share your life openly, standing with her in sickness and in health, in joy and in sorrow, in hardship and in ease, to cherish and love forever more?
+> <span style="background-color:rgba(255, 255, 0, 0.15);">KRISTOPHER</span> says, "I do."
 
-
-
-Do you GROOM take BRIDE, to be your lawfully wedded wife, to share your life openly, standing with her in sickness and in health, in joy and in sorrow, in hardship and in ease, to cherish and love forever more?
-GROOM says, I do.”
-
-Do you BRIDE take GROOM, to be your lawfully wedded husband, to share your life openly, standing with him in sickness and in health, in joy and in sorrow, in hardship and in ease, to cherish and love forever more?
-BRIDE says, I do.”
+Do you <span style="background-color:rgba(255, 255, 0, 0.15);">ALEXIA</span> take <span style="background-color:rgba(255, 255, 0, 0.15);">KRISTOPHER</span>, to be your lawfully wedded husband, to share your life openly, standing with him in sickness and in health, in joy and in sorrow, in hardship and in ease, to cherish and love forever more?
+> <span style="background-color:rgba(255, 255, 0, 0.15);">ALEXIA</span> says, "I do."
