@@ -29,6 +29,10 @@
 ### Segue into turning off phones.
 
 - > Now that you've got those beautiful photos taken, I would suggest that you either turn off your phones or put them on airplane mode It's just easier to avoid temptation, and will help keep my simple mind on track as we progress.
+
+### Talk about what happens after
+
+There will be a small cocktail hour while the happy couple goes off to do photographs. Inform the guests where to go.
     
 ### Officially begin the processional.
 
@@ -47,15 +51,11 @@
 
 ## Wedding Officiant Speech
 
-At this point, I will give a speech. Could include the following:
+This will take about 4-5 Minutes. It will segue into the Unity candle section.
 
-- Story of them
-- A poem
-- A reflection of love and/or marriage
-- Anything else.
+## Unity Candle Ceremony
 
-This is a time to be personal and engaging. I should bring everything about them into focus, leading up to the next section.
-Anything else Kris and Alexia would like outside of what I think.
+This process will signify the start of their process.
 
 ##  The Declaration of Intent and/or the less Personal Vows
 
@@ -67,11 +67,11 @@ There are several different was for this to happen. [These are some examples of 
 
 ### Vows
 
-Kris and Alexia have agreed to do their vows privately, as they are very personal. They may choose to do some more public vows here. I may look for some.
+In lieu of vows (which will be shared privately), they have done the unity candle.
 
 ##  The Exchange of the Wedding Rings
 
-There may be a neat thing where the ring bearer will be a surpise &ndash; the rings would be under a certain seat of the front few rows i.e. special family members. Otherwise a ring bearer will bring them
+There may be a neat thing where the ring bearer will be a surprise &ndash; the rings would be under a certain seat of the front few rows i.e. special family members. Otherwise a ring bearer will bring them
 
 There should be a few words spoken as to the significance and symbolism of the ring. Traditionally, it would have been the time to say "with this ring, I do thee wed".
 
@@ -93,10 +93,14 @@ After the have done this, they can face the crowd with some excitement (give tim
 This may be a good time for the wife to get back her flowers from the Maid-of-Honor. It may also be a good time to tell people what to do as the newlyweds (and wedding party) leave the area.
 
 - First, <u>**thank the guests for coming**</u>
-- After they leave, there will be a cocktail hour in a particular area while they take some photos
-- Stay in a particular area (I'm not sure where yet) while this happens
+- <s>After they leave, there will be a cocktail hour in a particular area while they take some photos</s>
+- <s>Stay in a particular area (I'm not sure where yet) while this happens</s>
 - **Have everyone rise as the couple walks out**
 
 ### After everyone is standing, announce them as the married couple:
 
 > I now give you, for the very first time, Mr. and Mrs. Kristopher and Alexia Stolte!
+
+## Recessional
+
+Everyone in the party will leave. When they have, the guests are free to leave to the cocktail hour.
