@@ -1,12 +1,13 @@
 <!-- pandoc script.md -o script.html -->
 
-## Opening Remarks 
-> Hello, everyone. For those of you who may not know me well, my name is Josh Boehm; I've been a a friend to both Kris and Alexia for nearly a decade. 
-> For that reason, they have honored me to stand before you all today to share in their most joyous day. 
+# Opening Remarks
+
+> Hello, everyone. For those of you who may not know me well, my name is Josh Boehm; I've been a a friend to both Kris and Alexia for nearly a decade.
+> For that reason, they have honored me to stand before you all today to share in their most joyous day.
 > Consequently, I have a few things to share with you all on their behalf.
 > They have ensured that fantastic photographers are here to immortalize each lovely moment of today, so that we all can simply enjoy.
-> In the pursuit of being present, Kristopher and Alexia have requested that you refrain from taking any photos of your own. 
-> I know how hard it can be to avoid the temptation of your phones. 
+> In the pursuit of being present, Kristopher and Alexia have requested that you refrain from taking any photos of your own.
+> I know how hard it can be to avoid the temptation of your phones.
 > So, if you need, you can just snap a photo of me really quickly, then kindly either turn your phones off or put them in airplane mode.
 
 <details>
@@ -18,11 +19,11 @@
 <br>
 You are all the very closest friends and family Kristopher and Alexia have; thank you all for understanding and helping to make this day as special as possible. And, with that, what do you say we get these two married?!
 
-## Processional
+# Processional
 
 There may not be too much said during this particular part. Just get the cue from Victor to know when to tell everyone to stand for Alexia.
 
-As she arrives at Kris, ask her father, 
+As she arrives at Kris, ask her father:
 
 > Who gives this woman to be wedded to this man?
 
@@ -30,7 +31,7 @@ He will respond his name and then find his seat. At this point, tell everyone to
 
 > Please, be seated.
 
-## Wedding Officiant Speech
+# Wedding Officiant Speech
 
 <spoiler>
 I bet there are still some of you sitting there who may be thinking, "who is this tall, goofy looking guy and why is he officiating?" Well, as I mentioned before my name is Josh Boehm, and I've known Kristopher and Alexia since their beginning. For that reason, I have been honored to stand before you all today to facilitate the most beautiful day of their lives (so far).</spoiler>
@@ -49,24 +50,69 @@ I bet there are still some of you sitting there who may be thinking, "who is thi
 But as with a flame, your love will take care, work, and dedication. It's critical you both allow not just the other the room to grow, to breath, to flourish, but <i>yourselves</i>. There will be days that you each may need stoking; there will be days you both need more fuel. Just remember that from this day forward, you are both each other's keeper. May you tend to each other in such a way that you keep that warmth for all your lives.
 </spoiler>
 
-## Unity Candle
+# Unity Candle
 
-Find out what this is, but it's probably best here to end the metaphor and transition into the declaration
+At this time, Kristopher and Alexia have elected to light a unity candle in lieu of publically sharing their private vows. This candle symbolizes that very flame. While you each should (and hopefully will) remain your own person. Part of being a great couple is to first be a great individual. It is with your *individual* flames that you both shall fuel your *joint* fire. Let the shared lighting of this candle symbolize the union you are making today, and have it serve as a reminder to the task ahead of you to cultivate your marriage.
 
-## Declaration of Intent
+> They will both light the candle together at this time.
 
-And with that, 
+# Declaration of Intent
 
+Now,
 
-<span style="background-color:rgba(255, 255, 0, 0.15);">ALEXIA</span> and <span style="background-color:rgba(255, 255, 0, 0.15);">KRISTOPHER</span>, by coming here today, you have reached a crossroads in your lives.
+<span style="background-color:rgba(255, 182, 193, 0.15);">ALEXIA</span> and <span style="background-color:rgba(180, 255, 225, 0.15);">KRISTOPHER</span>, by coming here today, you have reached a crossroads in your lives.
 You’re turning away from your yesterdays and looking ahead to your tomorrows.
 Your past is a distant memory.
 Your future a waiting adventure.
 It is a new dawn, a new commitment, a new life.\
 The bonds you are forging today will change your lives forever.
 
-Do you <span style="background-color:rgba(255, 255, 0, 0.15);">KRISTOPHER</span> take <span style="background-color:rgba(255, 255, 0, 0.15);">ALEXIA</span>, to be your lawfully wedded wife, to share your life openly, standing with her in sickness and in health, in joy and in sorrow, in hardship and in ease, to cherish and love forever more?
-> <span style="background-color:rgba(255, 255, 0, 0.15);">KRISTOPHER</span> says, "I do."
+Do you <span style="background-color:rgba(180, 255, 225, 0.15);">KRISTOPHER</span> take <span style="background-color:rgba(255, 182, 193, 0.15);">ALEXIA</span>, to be your lawfully wedded wife, to share your life openly, standing with her in sickness and in health, in joy and in sorrow, in hardship and in ease, to cherish and love forever more?
+> <span style="background-color:rgba(180, 255, 225, 0.15);">KRISTOPHER</span> says, "I do."
 
-Do you <span style="background-color:rgba(255, 255, 0, 0.15);">ALEXIA</span> take <span style="background-color:rgba(255, 255, 0, 0.15);">KRISTOPHER</span>, to be your lawfully wedded husband, to share your life openly, standing with him in sickness and in health, in joy and in sorrow, in hardship and in ease, to cherish and love forever more?
-> <span style="background-color:rgba(255, 255, 0, 0.15);">ALEXIA</span> says, "I do."
+Do you <span style="background-color:rgba(255, 182, 193, 0.15);">ALEXIA</span> take <span style="background-color:rgba(180, 255, 225, 0.15);">KRISTOPHER</span>, to be your lawfully wedded husband, to share your life openly, standing with him in sickness and in health, in joy and in sorrow, in hardship and in ease, to cherish and love forever more?
+> <span style="background-color:rgba(255, 182, 193, 0.15);">ALEXIA</span> says, "I do."
+
+# Ring Exchange
+
+At this point, have them hold hands and get the rings from whomeover has them.
+
+> <span style="background-color:rgba(180, 255, 225, 0.15);">KRISTOPHER</span>, as you place this ring on ALEXIA's finger, repeat after me.
+
+He will get the ring ready
+
+> "I give you this ring as a symbol of our love. Let it be a reminder that I am always by your side and that I will always be faithfully yours."
+
+He places the ring on her finger.
+
+> <span style="background-color:rgba(255, 182, 193, 0.15);">ALEXIA</span>, as you place this ring on <span style="background-color:rgba(180, 255, 225, 0.15);">KRISTOPHER</span>'s finger, repeat after me.
+
+She will get the ring ready.
+
+> "I give you this ring as a symbol of our love. Let it be a reminder that I am always by your side and that I will always be faithfully yours."
+
+# Pronouncement of the Couple
+
+With those rings, you have now symbollically bound yourselves to
+the vows you made to one other. As with all of your relationship
+prior and your marriage going forward, it is built by and dependant
+on love. And with that love, it is with great delight I, by the power
+vested in me, pronounce you Husband
+and Wife; You may now kiss the bride!
+
+## Be stepping aside already
+
+# Closing Remarks
+
+Guys, on behalf of the <b><i><u>NEWLYWEDS</b></i></u>, thank you all so much for coming and sharing in this moment.
+
+> If desired, explain (again the cocktail hour situation)
+> Please, enjoy a wonderful cocktail hour for everyone while the happy couple goes off to take some photographs.
+
+If you would all, please, stand up:
+
+I now give you, for the very first time, Mr. and Mrs. Kristopher and Alexia Stolte!
+
+# Recessional
+
+The extended party (party and immediate family) will leave down the isle, they will have a kiss, then carry on out.
